@@ -1,0 +1,169 @@
+/*********TAG SELECTORS********************/
+
+body {
+  background-color: #fcf8f7;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #131310;
+  font-family: "Comfortaa", cursive;
+  font-size: 4vh;
+  line-height: 2;
+  margin: 220px auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #445ea0;
+  font-size: 2, 5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #2f2c27;
+  font-size: 2, 5rem;
+}
+
+p {
+  color: #2f2c27;
+  font-size: 2, 5rem;
+  padding-bottom: 20px;
+}
+
+/**********CLASS SELECTORS****************/
+
+.header-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.top-container {
+  max-width: auto;
+  height: auto;
+  position: relative;
+}
+
+.middle-container {
+  max-width: auto;
+  height: auto;
+}
+
+.skill-row {
+  width: 50%;
+  height: auto;
+  margin: 40px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.webdesign {
+  float: left;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: 25%;
+  height: auto;
+}
+.content {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  width: 25%;
+  height: auto;
+}
+
+.webdevelopment {
+  float: left;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 90px;
+  width: 25%;
+  height: auto;
+}
+
+.Kontakt {
+  color: #131310;
+  font-size: 2, 5rem;
+  line-height: 2;
+  margin-top: 300px;
+  max-width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #bcbcbd;
+  height: 200px;
+  width: auto;
+}
+
+.footer-link {
+  color: white;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.copyright {
+  color: white;
+  margin-bottom: 80px;
+}
+
+.BUTTON_ZTF {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  font-family: Open Sans;
+  color: white;
+  font-size: 29px;
+  font-weight: 100;
+  padding: 34px;
+  background-color: #bcbcbd;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_ZTF:hover {
+  background: #eaebee;
+  border: solid #445ea0 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/**********ID SELECTORS****************/
+
+#hero-banner {
+  background: url(images/Turmgrau.jpg) center center no-repeat;
+  background-size: cover;
+  height: 500px;
+  height: 67vh;
+}
+
+#profile-picture {
+  display: block;
+  size: 4vh;
+  size: 13rem;
+  margin-top: 30px;
+  position: absolute;
+  right: 30%;
+}
+
+#profile-description {
+  color: #131310;
+  font-size: 2, 5rem;
+  margin-bottom: 0;
+}
